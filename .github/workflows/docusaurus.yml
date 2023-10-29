@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 Sidings Media
+# SPDX-License-Identifier: CC0-1.0
+
 name: Docusaurus
 
 on:
@@ -13,6 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
