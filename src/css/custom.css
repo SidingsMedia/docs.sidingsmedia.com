@@ -19,6 +19,7 @@ SPDX-License-Identifier: MIT
   --ifm-color-primary-light: #1976D2;
   --ifm-color-primary-lighter: #1976D2;
   --ifm-color-primary-lightest: #1976D2;
+  --hero-background-color: #1976D2 !important;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-footer-background-color: #FFFFFF;
@@ -37,6 +38,7 @@ SPDX-License-Identifier: MIT
 
   --ifm-background-color: #0A0C10 !important;
   --ifm-navbar-background-color: #0A0C10;
+  --hero-background-color: #1C1F24 !important;
   --ifm-card-background-color: #1C1F24;
   --ifm-color-gray-900: #1C1F24 !important;
   --openapi-card-background-color: #1C1F24 !important;
@@ -47,6 +49,11 @@ SPDX-License-Identifier: MIT
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+.hero--primary {
+  --ifm-hero-background-color: var(--hero-background-color) !important;
+  --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
 }
 
 .hero__img {
