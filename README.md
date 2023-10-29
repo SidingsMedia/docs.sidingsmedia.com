@@ -3,9 +3,31 @@ SPDX-FileCopyrightText: 2022 Sidings Media <contact@sidingsmedia.com>
 SPDX-License-Identifier: MIT
 -->
 
-# Project name
+# docs.sidingsmedia.com
 
-A description of what this project is and what it does
+Documentation service for Sidings Media projects including the API.
+Built using [Docusaurus 2](https://docusaurus.io/) and an OpenAPI theme
+from [Palo Alto
+Networks](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs).
+
+## Local Development
+
+```bash
+yarn start
+```
+
+This command starts a local development server and opens up a browser
+window. Most changes are reflected live without having to restart the
+server.
+
+## Build
+
+```bash
+yarn build
+```
+
+This command generates static content into the `build` directory and can
+be served using any static contents hosting service.
 
 ## Licence
 This repo uses the [REUSE](https://reuse.software) standard in order to

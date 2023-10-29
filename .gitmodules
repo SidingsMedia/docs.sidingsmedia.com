@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2023 Sidings Media
+# SPDX-License-Identifier: CC0-1.0
+
+[submodule "static/logos"]
+	path = static/logos
+	url = git@github.com:SidingsMedia/logo.git
+[submodule "openapi"]
+	path = openapi
+	url = git@github.com:SidingsMedia/openapi.git
