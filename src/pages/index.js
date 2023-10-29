@@ -20,7 +20,7 @@ function HomepageHeader() {
           src="/logos/rendered/logo-white-vertical.svg"
           alt="Sidings Media Logo"
         />
-        <h1 className="hero__title">Documentation Portal</h1>
+        <h1 className="hero__title">Docs Portal</h1>
       </div>
     </header>
   );
