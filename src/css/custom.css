@@ -113,3 +113,8 @@ SPDX-License-Identifier: MIT
   transition: all var(--ifm-transition-fast) ease;
   transition-property: border, box-shadow;
 }
+
+.cardContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 3px 6px 0 #0003;
+}
