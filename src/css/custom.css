@@ -49,6 +49,14 @@ SPDX-License-Identifier: MIT
   --ifm-footer-title-color: var(--ifm-color-white);
 }
 
+.hero__img {
+    max-height: 20rem;
+}
+
+.hero__title {
+    color: #FFFFFF;
+}
+
 /* Sidebar Method labels */
 .api-method>.menu__link {
   align-items: center;
