@@ -98,41 +98,66 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Useful Links",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "GitHub",
+                href: "https://github.com/SidingsMedia",
+              },
+              {
+                label: "Blog",
+                href: "https://blog.sidingsmedia.com",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Organisation",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Main site",
+                href: "https://sidingsmedia.com",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "About",
+                href: "https://sidingsmedia.com#about",
+              },
+              {
+                label: "Service Status",
+                href: "https://status.sidingsmedia.com",
+              },
+            ],
+          },
+          {
+            title: "Legal",
+            items: [
+              {
+                label: "Disclaimer",
+                href: "https://sidingsmedia.com/legal/disclaimer/",
+              },
+              {
+                label: "Terms of Service",
+                href: "https://sidingsmedia.com/legal/terms/",
+              },
+              {
+                label: "Privacy Policy",
+                href: "https://sidingsmedia.com/legal/privacy/",
+              },
+            ],
+          },
+          {
+            title: "Social Media",
+            items: [
+              {
+                label: "Instagram",
+                href: "https://www.instagram.com/sidingsmedia/",
+              },
+              {
+                label: "Facebook",
+                href: "https://www.facebook.com/sidingsmediaofficial",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://twitter.com/SidingsMedia",
               },
             ],
           },
