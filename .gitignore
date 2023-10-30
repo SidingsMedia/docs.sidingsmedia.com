@@ -4,6 +4,9 @@
 openapi.json
 openapi.yaml
 
+# This will be automatically generated
+docs/api
+
 # Dependencies
 /node_modules
 
