@@ -193,6 +193,14 @@ const config = {
   ],
 
   themes: ["docusaurus-theme-openapi-docs"],
+  scripts: [
+    {
+      src: "https://cdn.sidingsmedia.com/js/stats.js",
+      defer: true,
+      "data-domain": "docs.sidingsmedia.com",
+      "data-api": "https://api.sidingsmedia.com/stats/event",
+    },
+  ],
 };
 
 module.exports = config;
